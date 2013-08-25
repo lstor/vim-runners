@@ -10,11 +10,3 @@ else
   let g:loaded_runners = 1
 endif
 
-function! SetDispatchCommand(command)
-    if exists('b:dispatch')
-        echom "Exists! "
-    else
-        let b:dispatch = a:command
-    end
-endf
-

@@ -1,0 +1,1 @@
+call runners#SetCommand('runhaskell %')

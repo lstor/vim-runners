@@ -1,1 +1,1 @@
-call SetDispatchCommand('ruby %')
+call runners#SetCommand('ruby %')
