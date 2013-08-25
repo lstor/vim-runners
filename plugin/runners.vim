@@ -11,7 +11,7 @@ else
 endif
 
 function! SetDispatchCommand(command)
-    if exists(b:dispatch)
+    if exists('b:dispatch')
         echom "Exists! "
     else
         let b:dispatch = a:command
