@@ -4,11 +4,11 @@
 " Maintainer:   Lars Storjord <larsstor@ifi.uio.no>
 " Web: http://github.com/lstor/vim-runners
 
-"if exists('g:loaded_runners') || &compatible
-"  finish
-"else
-"  let g:loaded_runners = 1
-"endif
+if exists('g:loaded_runners') || &compatible
+  finish
+else
+  let g:loaded_runners = 1
+endif
 
 function! SetDispatchCommand(command)
     if exists(b:dispatch)

@@ -1,1 +1,1 @@
-SetDispatchCommand('ruby %')
+call SetDispatchCommand('ruby %')
